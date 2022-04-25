@@ -2,9 +2,9 @@
 
 ## Opis 
 1.	Eksportujemy sprawozdanie w pliku Excela, sprawozdanie finansowe wybranej spółki notowanej na GPW( na przykładzie CD-Projekt).
-2.	Z dostępnych danych wylicza ważniejsze wskaźniki finansowe (ROE, ROA, ROS,C/WK …  jest ich około 10) dla spółki, dla której pobraliśmy sprawozdanie finansowe.
+2.	Z dostępnych danych program  wylicza ważniejsze wskaźniki finansowe (ROE, ROA, ROS,C/WK …  jest ich około 10) dla spółki, dla której pobraliśmy sprawozdanie finansowe.
 3.	Przy użyciu biblioteki Matplotlib program rysuje zmiany ważniejszych wskaźników i ważniejszych kategorii finansowych( zysk netto, przychody ze sprzedaży, koszty, koszty działalności podstawowej).
-4.	Tworzy dodatkowo wykres Du Ponta dla2020 roku( często wykorzystywany do ogólnego spojrzenia na sytuację przedsiębiorstwa).
+4.	Tworzy dodatkowo wykres Du Ponta dla 2020 roku( często wykorzystywany do ogólnego spojrzenia na sytuację przedsiębiorstwa).
 
 ## Uruchomienie projektu 
 W celu prawidłowego działania projektu należy pobrać następujące biblioteki:
@@ -38,7 +38,7 @@ Interesować nas będą takie dane jak:
 -"Zapasy";
 -"ZOBOWIĄZANIA DŁUGOTERMINOWE";
 
-Istotnym warunkiem jest prawidłowy zapis wskaźników w programie Excel. Ponadto sprawozdanie finansowe ma obejmować 4 lata.
+Istotnym warunkiem jest prawidłowy zapis wskaźników w programie Excel. Ponadto sprawozdanie finansowe ma obejmować statystyki z 4 lat.
 ![image](https://user-images.githubusercontent.com/101069553/165183082-f7b42e11-829b-48eb-9417-bcdcc287d484.png)
 ![image](https://user-images.githubusercontent.com/101069553/165183131-03b800c9-127c-415c-ad25-28cbb85273e3.png)
 ![image](https://user-images.githubusercontent.com/101069553/165183247-5569faba-259d-4abb-8cb7-90611256375a.png)
