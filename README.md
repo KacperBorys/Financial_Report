@@ -21,6 +21,28 @@ Biblioteka tkinter umożliwia nam  tworzenie dość prostych programów okienkow
 Biblioteka matplotlib to bardzo obszerny i rozbudowany pakiet dający
 niezmiernie dużo opcji wizualizacji danych. Umożliwia edycje i dostosywanie
 wykresów.
+
+## Przygotowanie danych 
+Będziemy potrzebować sprawozdania finansowego wybranej spółki notowanej na GPW w pliku Excela.
+![image](https://user-images.githubusercontent.com/101069553/165182752-eac36a38-5a35-455e-ba56-83cbcf7f4d4f.png)
+
+Interesować nas będą takie dane jak:
+-Zysk/(strata) netto"; 
+-"AKTYWA OBROTOWE";
+-"AKTYWA RAZEM";
+-"Przychody ze sprzedaży";
+-"KAPITAŁ WŁASNY";
+-"AKTYWA OBROTOWE", "ZOBOWIĄZANIA KRÓTKOTERMINOWE";
+-"Należności handlowe"; 
+-"Koszty sprzedanych produktów, usług, towarów i materiałów";
+-"Zapasy";
+-"ZOBOWIĄZANIA DŁUGOTERMINOWE";
+
+Istotnym warunkiem jest prawidłowy zapis wskaźników w programie Excel.
+![image](https://user-images.githubusercontent.com/101069553/165183082-f7b42e11-829b-48eb-9417-bcdcc287d484.png)
+![image](https://user-images.githubusercontent.com/101069553/165183131-03b800c9-127c-415c-ad25-28cbb85273e3.png)
+
+
  
 
 
