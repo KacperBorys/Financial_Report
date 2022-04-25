@@ -1,4 +1,4 @@
-﻿# Projekt Języki Skryptowe 
+# Projekt Języki Skryptowe 
 
 ## Opis 
 1.	Eksportujemy sprawozdanie w pliku Excela, sprawozdanie finansowe wybranej spółki notowanej na GPW( na przykładzie CD-Projekt).
@@ -11,6 +11,7 @@ W celu prawidłowego działania projektu należy pobrać następujące bibliotek
 -pandas;
 -tkinter;
 -matplotlib;
+![image](https://user-images.githubusercontent.com/101069553/165181187-8a499dca-9046-4e4e-ad44-721b679c78ca.png)
 
 ### Pandas
 Biblioteka pandas jest jednym z najbardziej rozbudowanych pakietów, do analizy danych w Python. Za jego pomocą możemy na przykład wczytywać, czyścić, modyfikować, a nawet analizować dane z Excela.
@@ -22,7 +23,7 @@ niezmiernie dużo opcji wizualizacji danych. Umożliwia edycje i dostosywanie
 wykresów.
  
 
-![image](https://user-images.githubusercontent.com/101069553/165181187-8a499dca-9046-4e4e-ad44-721b679c78ca.png)
+
 
 
 
