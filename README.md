@@ -38,9 +38,12 @@ Interesować nas będą takie dane jak:
 -"Zapasy";
 -"ZOBOWIĄZANIA DŁUGOTERMINOWE";
 
-Istotnym warunkiem jest prawidłowy zapis wskaźników w programie Excel.
+Istotnym warunkiem jest prawidłowy zapis wskaźników w programie Excel. Ponadto sprawozdanie finansowe ma obejmować 4 lata.
 ![image](https://user-images.githubusercontent.com/101069553/165183082-f7b42e11-829b-48eb-9417-bcdcc287d484.png)
 ![image](https://user-images.githubusercontent.com/101069553/165183131-03b800c9-127c-415c-ad25-28cbb85273e3.png)
+![image](https://user-images.githubusercontent.com/101069553/165183247-5569faba-259d-4abb-8cb7-90611256375a.png)
+![image](https://user-images.githubusercontent.com/101069553/165183278-3648d21f-1fbc-4fc6-95e1-7eebc1b9b3a0.png)
+
 
 
  
