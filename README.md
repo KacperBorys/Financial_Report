@@ -1,48 +1,63 @@
-# Projekt Języki Skryptowe 
+# Scripting Languages Project
 
-## Opis 
-1.	Eksportujemy sprawozdanie w pliku Excela, sprawozdanie finansowe wybranej spółki notowanej na GPW( na przykładzie CD-Projekt).
-2.	Z dostępnych danych program  wylicza ważniejsze wskaźniki finansowe (ROE, ROA, ROS,C/WK …  jest ich około 10) dla spółki, dla której pobraliśmy sprawozdanie finansowe.
-3.	Przy użyciu biblioteki Matplotlib program rysuje zmiany ważniejszych wskaźników i ważniejszych kategorii finansowych( zysk netto, przychody ze sprzedaży, koszty, koszty działalności podstawowej).
+# Table of Contents📓
+* [Project Description](#project-description)
+* [Running the Application](#running-the-application)
+* [Data Preparation](#data-preparation)
+* [Conclusion](#conclusion)
 
-## Uruchomienie projektu 
-W celu prawidłowego działania projektu należy pobrać następujące biblioteki:
--pandas;
--tkinter;
--matplotlib;
+## Project Description🖊
+1.We export a financial report of a selected company listed on the Warsaw Stock Exchange (e.g. CD Projekt) in an Excel file format.
+2.The program calculates important financial indicators (e.g. ROE, ROA, ROS, C/WK... there are approximately 10 of them) for the company based on the available data from the financial report.
+3.Using the Matplotlib library, the program plots changes in the most important financial indicators and categories (net profit, revenue, costs, operating costs) for the selected company.
+Running the Project
+
+## Running the Application💻
+To run the project correctly, the following libraries must be downloaded:
+* pandas;
+* tkinter;
+* matplotlib;
+<br>
+
 ![image](https://user-images.githubusercontent.com/101069553/165181187-8a499dca-9046-4e4e-ad44-721b679c78ca.png)
 
-### Pandas
-Biblioteka pandas jest jednym z najbardziej rozbudowanych pakietów, do analizy danych w Python. Za jego pomocą możemy na przykład wczytywać, czyścić, modyfikować, a nawet analizować dane z Excela.
-### Tkinter
-Biblioteka tkinter umożliwia nam  tworzenie dość prostych programów okienkowych z wykorzystaniem w zasadzie wszystkich standardowych kontrolek systemowych.
-### Matplotlib
-Biblioteka matplotlib to bardzo obszerny i rozbudowany pakiet dający
-niezmiernie dużo opcji wizualizacji danych. Umożliwia edycje i dostosywanie
-wykresów.
+### Pandas📕
+The pandas library is one of the most extensive packages for data analysis in Python. It allows us to load, clean, modify, and even analyze data from Excel, among other things.
 
-## Przygotowanie danych 
-Będziemy potrzebować sprawozdania finansowego wybranej spółki notowanej na GPW w pliku Excela.
+### Tkinter📗
+The tkinter library enables us to create fairly simple windowed applications using virtually all standard system controls.
+
+### Matplotlib📘
+The matplotlib library is a very extensive and advanced package that offers a lot of data visualization options. It allows for editing and adjusting charts.
+
+## Data Preparation🔢
+We will need a financial report of a selected company listed on the Warsaw Stock Exchange in an Excel file format.
+<br>
+
 ![image](https://user-images.githubusercontent.com/101069553/165182752-eac36a38-5a35-455e-ba56-83cbcf7f4d4f.png)
 
-Interesować nas będą takie dane jak:
--Zysk/(strata) netto"; 
--"AKTYWA OBROTOWE";
--"AKTYWA RAZEM";
--"Przychody ze sprzedaży";
--"KAPITAŁ WŁASNY";
--"AKTYWA OBROTOWE", "ZOBOWIĄZANIA KRÓTKOTERMINOWE";
--"Należności handlowe"; 
--"Koszty sprzedanych produktów, usług, towarów i materiałów";
--"Zapasy";
--"ZOBOWIĄZANIA DŁUGOTERMINOWE";
+We will be interested in such data as:
+* "Net profit/(loss)";
+* "Current assets";
+* "Total assets";
+* "Sales revenue";
+* "Equity";
+* "Current assets", "Short-term liabilities";
+* "Trade receivables";
+* "Cost of goods sold, services, goods and materials";
+* "Inventories";
+* "Long-term liabilities".
 
-Istotnym warunkiem jest prawidłowy zapis wskaźników w programie Excel. Ponadto sprawozdanie finansowe ma obejmować statystyki z 4 lat.
+It is essential to correctly save the indicators in the Excel program. Moreover, the financial report should include statistics from 4 years.
+<br>
+
 ![image](https://user-images.githubusercontent.com/101069553/165183082-f7b42e11-829b-48eb-9417-bcdcc287d484.png)
 ![image](https://user-images.githubusercontent.com/101069553/165183131-03b800c9-127c-415c-ad25-28cbb85273e3.png)
 ![image](https://user-images.githubusercontent.com/101069553/165183247-5569faba-259d-4abb-8cb7-90611256375a.png)
 ![image](https://user-images.githubusercontent.com/101069553/165183278-3648d21f-1fbc-4fc6-95e1-7eebc1b9b3a0.png)
  
+## Conclusion🔚
+To sum up, the Scripting Languages Project is aimed at exporting and analyzing financial reports of selected companies listed on the Warsaw Stock Exchange. The program calculates important financial indicators and plots changes in the most critical categories using the Matplotlib library. To run the project correctly, pandas, tkinter, and matplotlib libraries must be downloaded. The financial report should include statistics from the past four years, and it is essential to correctly save the indicators in the Excel program. Overall, this project can be useful for financial analysis and investment decision-making.
 
 
  
